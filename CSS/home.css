@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+#navbar  {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+li .logo {
+    display: flex;
+    justify-content: right;
+    size: 70px
+}
+ul {
+    list-style-type: none;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: end;
+}
