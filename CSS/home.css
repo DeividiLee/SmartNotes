@@ -1,28 +1,30 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    list-style-type: none;
+header {
+    background-color: green;
 }
-#navbar  {
-    display:flex;
-    justify-content: space-between;
-    flex-direction: row;
-    
-}
-li .logo {
+header #logo{
+    width:10px;
+    height: 10px;
     display: flex;
-    justify-content: right;
-    size: 70px
 }
-ul {
-    list-style-type: none;
-    z-index: 1;
+#inicio {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-
+    justify-content: space-around;
+    background-color: aqua;
 }
-.link{
+#inicio aside img{
+    flex-direction: column;
+    width: 500px;
+    height:500px;
     display: flex;
-    justify-content: flex-end;
-    justify-items: end;
+    justify-content: left;
+}
+#inicio article h1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 200px;
+    margin-left:-400px;
+
 }
